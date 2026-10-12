@@ -1,0 +1,6 @@
+[submodule "verilog-eval"]
+	path = verilog-eval
+	url = ../verilog-eval
+[submodule "simeval"]
+	path = simeval
+	url = ../simeval
