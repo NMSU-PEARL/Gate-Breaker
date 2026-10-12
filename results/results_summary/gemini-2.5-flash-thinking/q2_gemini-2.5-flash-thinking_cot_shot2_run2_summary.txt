@@ -1,0 +1,51 @@
+
+Prob017_mux2to1v             [10/10](100%)  0.00 ..... .....             
+Prob026_alwaysblock1         [07/10]( 70%)  0.00 w.w.. ...w.             
+Prob028_m2014_q4a            [06/10]( 60%)  0.00 .CC.. ...CC             
+Prob033_ece241_2014_q1c      [07/10]( 70%)  0.00 R.... .R..R             
+Prob039_always_if            [10/10](100%)  0.00 ..... .....             
+Prob043_vector5              [05/10]( 50%)  0.00 RR.R. .CR..             
+Prob044_vectorgates          [06/10]( 60%)  0.00 .R..R R..R.             
+Prob051_gates4               [10/10](100%)  0.00 ..... .....             
+Prob052_gates100             [10/10](100%)  0.00 ..... .....             
+Prob070_ece241_2013_q2       [10/10](100%)  0.00 ..... .....             
+Prob071_always_casez         [01/10]( 10%)  0.00 ww.mw mwRRC             
+Prob072_thermostat           [10/10](100%)  0.00 ..... .....             
+Prob077_wire_decl            [10/10](100%)  0.00 ..... .....             
+Prob079_fsm3onehot           [09/10]( 90%)  0.00 ..... R....             
+Prob087_gates                [10/10](100%)  0.00 ..... .....             
+Prob091_2012_q2b             [10/10](100%)  0.00 ..... .....             
+Prob092_gatesv100            [06/10]( 60%)  0.00 ...SC .C..C             
+Prob093_ece241_2014_q3       [10/10](100%)  0.00 ..... .....             
+Prob094_gatesv               [06/10]( 60%)  0.00 R.R.. .C.R.             
+Prob097_mux9to1v             [00/10](  0%)  0.00 wwwww wRwww             
+Prob099_m2014_q6c            [00/10](  0%)  0.00 CCCCC CCCCC             
+Prob100_fsm3comb             [07/10]( 70%)  0.00 ..... w..CR             
+Prob106_always_nolatches     [01/10]( 10%)  0.00 RRmRR .RRRR             
+Prob112_always_case2         [04/10]( 40%)  0.00 .wm.S .C.wm             
+Prob113_2012_q1g             [07/10]( 70%)  0.00 .C... ..RR.             
+Prob114_bugs_case            [00/10](  0%)  0.00 RRRRw SRwww             
+Prob116_m2014_q3             [10/10](100%)  0.00 ..... .....             
+Prob122_kmap4                [09/10]( 90%)  0.00 ..... ....R             
+Prob123_bugs_addsubz         [10/10](100%)  0.00 ..... .....             
+Prob125_kmap3                [10/10](100%)  0.00 ..... .....             
+Prob126_circuit6             [00/10](  0%)  0.00 RwwCw wwwRw             
+Prob130_circuit5             [00/10](  0%)  0.00 wCCRR RRwRR             
+Prob132_always_if2           [10/10](100%)  0.00 ..... .....             
+Prob134_2014_q3c             [03/10]( 30%)  0.00 .C.mR R.RCR             
+Prob135_m2014_q6b            [04/10]( 40%)  0.00 .wRCR ...Rm             
+Prob150_review2015_fsmonehot [05/10]( 50%)  0.00 R.R.. .RRR.             
+
+pass_rate             =      64.72
+pass@1                  =      66.67%
+pass@5                  =      83.33%
+pass@10                 =      86.11%
+avg_gini_simpson_idx  =       0.32
+total_prompt_tokens   =          0
+total_resp_tokens     =          0
+total_tokens          =          0
+avg_tokens_per_prompt =       0.00
+avg_tokens_per_resp   =       0.00
+avg_tokens_per_query  =       0.00
+total_cost            =       0.00
+

@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{adjustbox}
+\usepackage{caption}
+
+\begin{document}
+
+\begin{table}[htbp]
+\centering
+\caption{Comprehensive Model Performance Summary: Pass Rates, Pass@k Metrics with Mean ± Standard Deviation}
+\label{tab:comprehensive_summary}
+\small
+\adjustbox{width=\textwidth,center}
+{%
+\begin{tabular}{@{}ll*{4}{c}@{}}
+\toprule
+\multicolumn{2}{c}{\textbf{Metric}} & {\textbf{O3-Mini}} & {\textbf{Gemini-2.5-Flash-}} & {\textbf{Gemini-2.5-Flash}} & {\textbf{GPT-4.1-Mini}} \\
+\multicolumn{2}{c}{} & & {\textbf{Thinking}} & & \\
+\midrule
+
+% Q1 (Easy) Performance
+\multirow{4}{*}{\rotatebox{90}{\textbf{Q1 (Easy)}}} 
+& Pass Rate & 0.995 \pm 0.000 & 0.959 \pm 0.017 & 0.945 \pm 0.002 & 0.883 \pm 0.010 \\
+& Pass@1 & 1.000 \pm 0.000 & 0.963 \pm 0.017 & 0.951 \pm 0.035 & 0.890 \pm 0.052 \\
+& Pass@5 & 1.000 \pm 0.000 & 1.000 \pm 0.000 & 1.000 \pm 0.000 & 0.963 \pm 0.017 \\
+& Pass@10 & 1.000 \pm 0.000 & 1.000 \pm 0.000 & 1.000 \pm 0.000 & 0.988 \pm 0.017 \\
+\midrule
+
+% Q2 Performance
+\multirow{4}{*}{\rotatebox{90}{\textbf{Q2}}} 
+& Pass Rate & 0.817 \pm 0.012 & 0.644 \pm 0.004 & 0.601 \pm 0.022 & 0.418 \pm 0.018 \\
+& Pass@1 & 0.819 \pm 0.020 & 0.681 \pm 0.020 & 0.583 \pm 0.000 & 0.375 \pm 0.020 \\
+& Pass@5 & 0.875 \pm 0.020 & 0.806 \pm 0.039 & 0.778 \pm 0.039 & 0.569 \pm 0.059 \\
+& Pass@10 & 0.889 \pm 0.000 & 0.819 \pm 0.059 & 0.778 \pm 0.039 & 0.639 \pm 0.000 \\
+\midrule
+
+% Q3 Performance
+\multirow{4}{*}{\rotatebox{90}{\textbf{Q3}}} 
+& Pass Rate & 0.658 \pm 0.028 & 0.487 \pm 0.002 & 0.458 \pm 0.020 & 0.393 \pm 0.006 \\
+& Pass@1 & 0.667 \pm 0.000 & 0.514 \pm 0.020 & 0.444 \pm 0.079 & 0.375 \pm 0.020 \\
+& Pass@5 & 0.806 \pm 0.039 & 0.708 \pm 0.020 & 0.667 \pm 0.079 & 0.514 \pm 0.059 \\
+& Pass@10 & 0.833 \pm 0.039 & 0.736 \pm 0.020 & 0.708 \pm 0.059 & 0.542 \pm 0.059 \\
+\midrule
+
+% Q4 (Hard) Performance
+\multirow{4}{*}{\rotatebox{90}{\textbf{Q4 (Hard)}}} 
+& Pass Rate & 0.534 \pm 0.030 & 0.292 \pm 0.016 & 0.240 \pm 0.011 & 0.132 \pm 0.027 \\
+& Pass@1 & 0.516 \pm 0.046 & 0.274 \pm 0.023 & 0.210 \pm 0.023 & 0.113 \pm 0.068 \\
+& Pass@5 & 0.710 \pm 0.000 & 0.565 \pm 0.023 & 0.387 \pm 0.046 & 0.258 \pm 0.000 \\
+& Pass@10 & 0.774 \pm 0.000 & 0.629 \pm 0.023 & 0.468 \pm 0.023 & 0.323 \pm 0.000 \\
+\midrule
+
+% Overall Performance
+\multirow{4}{*}{\rotatebox{90}{\textbf{Overall}}} 
+& Pass Rate & 0.751 \pm 0.186 & 0.596 \pm 0.261 & 0.561 \pm 0.274 & 0.457 \pm 0.289 \\
+& Pass@1 & 0.751 \pm 0.193 & 0.608 \pm 0.269 & 0.547 \pm 0.289 & 0.438 \pm 0.303 \\
+& Pass@5 & 0.848 \pm 0.114 & 0.770 \pm 0.170 & 0.708 \pm 0.239 & 0.576 \pm 0.272 \\
+& Pass@10 & 0.874 \pm 0.090 & 0.796 \pm 0.147 & 0.738 \pm 0.205 & 0.623 \pm 0.258 \\
+
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\end{document}

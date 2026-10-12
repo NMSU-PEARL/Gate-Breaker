@@ -1,0 +1,51 @@
+
+Prob023_vector100r            [00/10](  0%) 28.48 RRRRR RRRRR             
+Prob031_dff                   [10/10](100%) 24.43 ..... .....             
+Prob034_dff8                  [00/10](  0%) 26.74 RRRRR RRRRR             
+Prob035_count1to10            [00/10](  0%) 32.80 RrRRR RrRRr             
+Prob037_review2015_count1k    [00/10](  0%) 48.14 RRRRR rrRRR             
+Prob038_count15               [10/10](100%) 32.89 ..... .....             
+Prob040_count10               [00/10](  0%) 33.98 RRRRr RRRRr             
+Prob041_dff8r                 [10/10](100%) 31.73 ..... .....             
+Prob045_edgedetect2           [10/10](100%) 42.82 ..... .....             
+Prob046_dff8p                 [00/10](  0%) 35.88 rrrRr RrrRR             
+Prob047_dff8ar                [10/10](100%) 28.41 ..... .....             
+Prob048_m2014_q4c             [08/10]( 80%) 25.86 ...RR .....             
+Prob049_m2014_q4b             [10/10](100%) 25.02 ..... .....             
+Prob053_m2014_q4d             [00/10](  0%) 27.89 RRRRR RRRRR             
+Prob054_edgedetect            [07/10]( 70%) 35.37 R.... RR...             
+Prob056_ece241_2013_q7        [10/10](100%) 26.60 ..... .....             
+Prob058_alwaysblock2          [08/10]( 80%) 28.00 ....R .R...             
+Prob060_m2014_q4k             [08/10]( 80%) 28.71 .r.r. .....             
+Prob061_2014_q4a              [06/10]( 60%) 32.97 RR... m.R..             
+Prob063_review2015_shiftcount [00/10](  0%) 39.82 RRRRR RRRRR             
+Prob066_edgecapture           [00/10](  0%) 86.46 RRRRR RRrRR             
+Prob073_dff16e                [06/10]( 60%) 57.16 .r.Rr ....S             
+Prob074_ece241_2014_q4        [00/10](  0%) 32.51 RRRRm RRRRR             
+Prob076_always_case           [09/10]( 90%) 49.60 ..... ...w.             
+Prob080_timer                 [00/10](  0%) 51.65 RRRRR RRRRR             
+Prob084_ece241_2013_q12       [00/10](  0%) 49.11 RCRRC RRmRR             
+Prob085_shift4                [00/10](  0%) 36.33 RRRRR RRRRR             
+Prob088_ece241_2014_q5b       [03/10]( 30%) 30.45 R.mRR .RR.R             
+Prob098_circuit7              [10/10](100%) 24.70 ..... .....             
+Prob104_mt2015_muxdff         [00/10](  0%) 27.16 RRRRR RRRRR             
+Prob105_rotate100             [00/10](  0%) 389.46 RRRRR RRRRR             
+Prob117_circuit9              [01/10]( 10%) 32.04 RRRRR RRR.R             
+Prob118_history_shift         [00/10](  0%) 107.68 RRRRR RRRRS             
+Prob143_fsm_onehot            [00/10](  0%) 41.12 RRSCR CRmRS             
+Prob145_circuit8              [04/10]( 40%) 25.82 w..Rw .Rw.R             
+Prob147_circuit10             [00/10](  0%) 34.87 RmpRR RSRmR             
+
+pass_rate             =      38.89
+pass@1                  =      36.11%
+pass@5                  =      47.22%
+pass@10                 =      50.00%
+avg_gini_simpson_idx  =       0.37
+total_prompt_tokens   =    1608840
+total_resp_tokens     =     103829
+total_tokens          =    1712669
+avg_tokens_per_prompt =    4469.00
+avg_tokens_per_resp   =     288.41
+avg_tokens_per_query  =    4757.41
+total_cost            =       0.00
+

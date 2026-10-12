@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{rotating}
+\begin{document}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{llcccc}
+\toprule
+& & O3-Mini & Gemini-2.5-Flash-Thinking & Gemini-2.5-Flash & GPT-4.1-Mini \\
+\midrule
+\multirow{2}{*}{\rotatebox{90}{\textbf{Q1 (Easy)}}} & AST Similarity & 0.924 ± 0.001 & 0.923 ± 0.001 & 0.924 ± 0.000 & 0.924 ± 0.000 \\
+ & CFG Similarity & 0.953 ± 0.002 & 0.950 ± 0.003 & 0.953 ± 0.002 & 0.958 ± 0.001 \\
+\midrule
+\multirow{2}{*}{\rotatebox{90}{\textbf{Q2}}} & AST Similarity & 0.925 ± 0.000 & 0.924 ± 0.001 & 0.924 ± 0.001 & 0.925 ± 0.002 \\
+ & CFG Similarity & 0.807 ± 0.002 & 0.826 ± 0.004 & 0.833 ± 0.013 & 0.844 ± 0.001 \\
+\midrule
+\multirow{2}{*}{\rotatebox{90}{\textbf{Q3}}} & AST Similarity & 0.923 ± 0.001 & 0.924 ± 0.000 & 0.924 ± 0.001 & 0.924 ± 0.001 \\
+ & CFG Similarity & 0.927 ± 0.001 & 0.901 ± 0.002 & 0.920 ± 0.003 & 0.939 ± 0.005 \\
+\midrule
+\multirow{2}{*}{\rotatebox{90}{\textbf{Q4 (Hard)}}} & AST Similarity & 0.924 ± 0.001 & 0.924 ± 0.002 & 0.924 ± 0.001 & 0.924 ± 0.000 \\
+ & CFG Similarity & 0.871 ± 0.006 & 0.857 ± 0.002 & 0.877 ± 0.004 & 0.859 ± 0.012 \\
+\bottomrule
+\end{tabular}
+\caption{AST and CFG Similarity Metrics by Model and Problem Quartile}
+\label{tab:similarity_metrics}
+\end{table}
+
+\end{document}

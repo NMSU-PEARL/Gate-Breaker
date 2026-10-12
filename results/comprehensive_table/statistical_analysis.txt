@@ -1,0 +1,61 @@
+
+DETAILED STATISTICAL ANALYSIS
+=============================
+
+This table shows mean ± standard deviation for all metrics.
+
+KEY INSIGHTS:
+
+1. CONSISTENCY ANALYSIS (Lower std = more consistent):
+
+   Overall Pass Rate Consistency:
+   1. O3-Mini: σ = 0.186 (CV = 24.7%)
+   2. Gemini-Flash-Thinking: σ = 0.261 (CV = 43.8%)
+   3. Gemini-Flash: σ = 0.274 (CV = 48.8%)
+   4. GPT-4.1-Mini: σ = 0.289 (CV = 63.4%)
+
+2. PERFORMANCE BY QUARTILE:
+
+   Q1 (Easy) - Pass Rate:
+   1. O3-Mini: 0.995 ± 0.000
+   2. Gemini-Flash-Thinking: 0.959 ± 0.017
+   3. Gemini-Flash: 0.945 ± 0.002
+   4. GPT-4.1-Mini: 0.883 ± 0.010
+
+   Q2 (Medium) - Pass Rate:
+   1. O3-Mini: 0.817 ± 0.012
+   2. Gemini-Flash-Thinking: 0.644 ± 0.004
+   3. Gemini-Flash: 0.601 ± 0.022
+   4. GPT-4.1-Mini: 0.418 ± 0.018
+
+   Q3 (Hard) - Pass Rate:
+   1. O3-Mini: 0.658 ± 0.028
+   2. Gemini-Flash-Thinking: 0.487 ± 0.002
+   3. Gemini-Flash: 0.458 ± 0.020
+   4. GPT-4.1-Mini: 0.393 ± 0.006
+
+   Q4 (Very Hard) - Pass Rate:
+   1. O3-Mini: 0.534 ± 0.030
+   2. Gemini-Flash-Thinking: 0.292 ± 0.016
+   3. Gemini-Flash: 0.240 ± 0.011
+   4. GPT-4.1-Mini: 0.132 ± 0.027
+
+3. STANDARD DEVIATION INTERPRETATION:
+   • σ < 0.05: Very consistent performance
+   • σ 0.05-0.15: Moderately consistent
+   • σ > 0.15: High variability
+
+4. NOTABLE PATTERNS:
+   • Most consistent: O3-Mini (σ = 0.186)
+   • Least consistent: GPT-4.1-Mini (σ = 0.289)
+
+5. PASS@K PROGRESSION ANALYSIS:
+   Pass@1 → Pass@5 → Pass@10 improvement patterns:
+   • O3-Mini: 0.751 → 0.848 → 0.874
+     (Pass@5: +12.9%, Pass@10: +16.5%)
+   • Gemini-Flash-Thinking: 0.608 → 0.770 → 0.796
+     (Pass@5: +26.6%, Pass@10: +30.9%)
+   • Gemini-Flash: 0.547 → 0.708 → 0.738
+     (Pass@5: +29.4%, Pass@10: +35.0%)
+   • GPT-4.1-Mini: 0.438 → 0.576 → 0.623
+     (Pass@5: +31.5%, Pass@10: +42.1%)

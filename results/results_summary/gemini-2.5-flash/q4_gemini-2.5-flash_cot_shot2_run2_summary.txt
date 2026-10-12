@@ -1,0 +1,46 @@
+
+Prob055_conditional           [10/10](100%)  0.00 ..... .....             
+Prob067_countslow             [00/10](  0%)  0.00 RSmRm mRmmR             
+Prob068_countbcd              [00/10](  0%)  0.00 mmmmm mmmmm             
+Prob075_counter_2bc           [01/10]( 10%)  0.00 mmmRw mR.mR             
+Prob078_dualedge              [08/10]( 80%)  0.00 .R... ...w.             
+Prob082_lfsr32                [00/10](  0%)  0.00 mmmmm mmmmm             
+Prob086_lfsr5                 [04/10]( 40%)  0.00 R.RRR R...m             
+Prob089_ece241_2014_q5a       [00/10](  0%)  0.00 mmmwm mmmmm             
+Prob107_fsm1s                 [08/10]( 80%)  0.00 ..rr. .....             
+Prob109_fsm1                  [10/10](100%)  0.00 ..... .....             
+Prob110_fsm2                  [09/10]( 90%)  0.00 ..... ....R             
+Prob111_fsm2s                 [07/10]( 70%)  0.00 r.... rm...             
+Prob115_shift18               [00/10](  0%)  0.00 mmmmm mmmmm             
+Prob119_fsm3                  [02/10]( 20%)  0.00 mm.m. mwmmm             
+Prob120_fsm3s                 [00/10](  0%)  0.00 mmmmm mmmRm             
+Prob121_2014_q3bfsm           [04/10]( 40%)  0.00 ..mmw mwR..             
+Prob127_lemmings1             [08/10]( 80%)  0.00 R.... .R...             
+Prob128_fsm_ps2               [00/10](  0%)  0.00 mmmmm mmmmm             
+Prob129_ece241_2013_q8        [01/10]( 10%)  0.00 wm.mC mwRmR             
+Prob133_2014_q3fsm            [00/10](  0%)  0.00 RRmmr RmmmR             
+Prob136_m2014_q6              [00/10](  0%)  0.00 RmSwR mRRmm             
+Prob138_2012_q2fsm            [01/10]( 10%)  0.00 mmmmm rR.mm             
+Prob139_2013_q2bfsm           [01/10]( 10%)  0.00 m.mmm mmmmm             
+Prob140_fsm_hdlc              [00/10](  0%)  0.00 mrmmm mmmmR             
+Prob141_count_clock           [00/10](  0%)  0.00 mmmmm mmmmm             
+Prob142_lemmings2             [03/10]( 30%)  0.00 .mmw. m.RRm             
+Prob148_2013_q2afsm           [00/10](  0%)  0.00 mrmmm mmmmm             
+Prob149_ece241_2013_q4        [00/10](  0%)  0.00 mmmmm mmmmm             
+Prob151_review2015_fsm        [00/10](  0%)  0.00 RCRRR RRRRR             
+Prob154_fsm_ps2data           [00/10](  0%)  0.00 mmmmm mmmmm             
+Prob156_review2015_fancytimer [00/10](  0%)  0.00 TTTTT TTTTT             
+
+pass_rate             =      24.84
+pass@1                  =      22.58%
+pass@5                  =      41.94%
+pass@10                 =      48.39%
+avg_gini_simpson_idx  =       0.31
+total_prompt_tokens   =          0
+total_resp_tokens     =          0
+total_tokens          =          0
+avg_tokens_per_prompt =       0.00
+avg_tokens_per_resp   =       0.00
+avg_tokens_per_query  =       0.00
+total_cost            =       0.00
+
