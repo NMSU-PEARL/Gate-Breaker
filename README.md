@@ -1,4 +1,4 @@
-# gate_breaker
+# Gate-Breaker
 
 Evaluation of LLMs on netlist-to-RTL recovery: the model is given a synthesized
 gate-level netlist and has to produce RTL that passes the original testbench.
@@ -63,3 +63,21 @@ and calls `simeval/improved_similarity_analysis.py`.
 
 The raw run directories are not included. `results/results_summary/` has the
 per-run summary text for each model.
+
+## Citation
+
+```bibtex
+@inproceedings{faruque2025gate,
+  title={Gate-Breaker: An LLM-Powered Netlist-to-RTL Reverse Engineering Tool},
+  author={Faruque, Md Omar and Jamieson, Peter and Patooghy, Ahmad and Badawy, Abdel-Hameed A},
+  booktitle={2025 IEEE International Performance, Computing, and Communications Conference (IPCCC)},
+  pages={1--8},
+  year={2025},
+  organization={IEEE}
+}
+```
+
+## License
+
+MIT, see [LICENSE](LICENSE). The `verilog-eval` and `simeval` submodules are
+separate repositories and keep their own terms.
