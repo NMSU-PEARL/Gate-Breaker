@@ -77,7 +77,15 @@ per-run summary text for each model.
 }
 ```
 
+## Disclaimer
+
+Gate-Breaker is intended for education and research only. Use it only on
+designs you own or are authorized to analyze. Users are responsible for
+complying with the laws and the intellectual property and license terms that
+apply to those designs. The authors do not endorse unauthorized reverse
+engineering and accept no responsibility for misuse.
+
 ## License
 
-MIT, see [LICENSE](LICENSE). The `verilog-eval` and `simeval` submodules are
-separate repositories and keep their own terms.
+BSD 3-Clause, see [LICENSE](LICENSE). The `verilog-eval` and `simeval`
+submodules are separate repositories and keep their own terms.
